@@ -121,3 +121,11 @@ main {
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
+.campus-info ul {
+    list-style-position: inside;
+    text-align: left;
+}
+
+.campus-info li {
+    margin-bottom: 0.5rem;
+}

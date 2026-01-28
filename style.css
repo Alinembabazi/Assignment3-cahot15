@@ -85,3 +85,19 @@ body {
 .dropdown-menu li a:hover {
     background-color: #3498db;
 }
+main {
+    margin-top: 70px;
+}
+
+/* Introduction Section */
+.introduction {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.introduction h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}

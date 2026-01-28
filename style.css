@@ -101,3 +101,23 @@ main {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
+.intro-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.campus-info {
+    background: rgba(255,255,255,0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.campus-info h3 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}

@@ -59,7 +59,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background: #2c3e50;
+    background: grey;
     min-width: 200px;
     list-style: none;
     opacity: 0;
@@ -91,7 +91,7 @@ main {
 
 /* Introduction Section */
 .introduction {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, grey 0%, #5e5469 100%);
     color: white;
     padding: 4rem 0;
     text-align: center;
@@ -162,11 +162,14 @@ section h2 {
 }
 
 .service-card {
-    background: white;
+    background: rgb(207, 170, 170);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    text-align: center;
+    text-align: left;
+   grid-template-columns: repeat(4, 1fr);
+   justify-content: flex-start;
+   flex-wrap: wrap;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -196,6 +199,7 @@ section h2 {
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     cursor: pointer;
+    
     transition: background-color 0.3s ease;
 }
 .card-btn:hover {

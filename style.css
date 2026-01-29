@@ -167,7 +167,7 @@ section h2 {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     text-align: left;
-   grid-template-columns: repeat(4, 1fr);
+   
    justify-content: flex-start;
    flex-wrap: wrap;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -199,17 +199,18 @@ section h2 {
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     cursor: pointer;
-    
+    h
     transition: background-color 0.3s ease;
 }
 .card-btn:hover {
-    background: #2980b9;
+    background: #7791a3;
 }
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
+
 }
 
 .gallery-item {
@@ -218,6 +219,7 @@ section h2 {
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    
 }
 
 .gallery-item:hover {
@@ -249,7 +251,7 @@ section h2 {
 }
 
 .sticky-notice {
-    background: linear-gradient(135deg, green, #c0392b);
+    background-color: #dc3545;
     color: white;
     padding: 1.5rem;
     border-radius: 10px;
@@ -312,7 +314,7 @@ section h2 {
 
 .demo-item.invisible {
     background: #fff3cd;
-    border: 2px solid #ffc107;
+    border: 2px solid #710404;
     visibility: hidden;
 }
 
@@ -353,9 +355,13 @@ footer p {
     .sticky-notice {
         position: relative;
         top: 0;
+       
+       
     }
     .demo-item.conditional {
-        display: none;
+        display: block;
+        background: red;
+       
     }
 }
 

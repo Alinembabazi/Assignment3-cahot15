@@ -47,10 +47,10 @@ body {
 
 .nav-link {
     color: white;
-    text-decoration: none;
-    padding: 1.5rem 1rem;
+    text-decoration: underline;
+    padding: 15px;
     display: block;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s;
 }
 .nav-link:hover {
     background-color: rgba(255,255,255,0.1);
